@@ -1,0 +1,78 @@
+﻿h1{
+    position:relative;
+    top:50px
+}
+form {
+    position:relative;
+    left:40%;
+    top:40%;
+    width: 400px;
+    height: 400px;
+}
+.one{
+    animation:up 1s linear infinite;
+    color:blue;
+    
+}
+.two {
+    animation: up 1s linear infinite;
+    animation-delay: .1s;
+    color: blue;
+}
+.three {
+    animation: up 1s linear infinite;
+    animation-delay: 0.2s;
+    color: blue;
+}
+.four {
+    animation: up 1s linear infinite;
+    animation-delay: 0.3s;
+    color: blue;
+}
+.five {
+    animation: up 1s linear infinite;
+    animation-delay: 0.4s;
+    color: blue;
+}
+.six {
+    animation: up 1s linear infinite;
+    animation-delay: 0.5s;
+    color: blue;
+}
+.sev {
+    animation: up 1s linear infinite;
+    animation-delay: 0.6s;
+    color: blue;
+}
+.eig {
+    animation: up 1s linear infinite;
+    animation-delay: 0.7s;
+    color: blue;
+}
+.nine {
+    animation: up 1s linear infinite;
+    animation-delay: 0.8s;
+    color: blue;
+}
+.ten {
+    animation: up 1s linear infinite;
+    animation-delay: 0.9s;
+    color: blue;
+}
+
+
+  @keyframes up {
+      0%{
+          top:50px;
+
+      }
+    100% {
+        top: 47px;
+    }
+  }
+  span{
+      position:relative;
+  }
+span:hover{
+    top:30px
+}

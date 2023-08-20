@@ -1,0 +1,72 @@
+﻿.div {
+    width: 100%;
+    height: 200px;
+    text-align: center
+}
+
+.div h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+table td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table thead {
+    margin-block: 10px;
+}
+
+.fa-solid:hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+header {
+    width: 100%;
+    margin: 0 0 60px 0;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ho,
+.deg,
+.ta,
+.se,
+.ab,
+.lo {
+    margin: 0 5px;
+}
+
+.per {
+    margin: 0 15px;
+}
+
+.contanier {
+    text-align: center;
+    margin: 80px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    transform: translate(287px, -31px);
+}

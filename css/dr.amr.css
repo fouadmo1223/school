@@ -1,0 +1,134 @@
+﻿
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(101, 67, 67);
+    top: -100px;
+    left: 40%;
+    position: relative;
+    animation: up 1s linear 1 alternate forwards;
+    display: inline-block;
+   
+}
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 40%;
+    top: 100px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    border-radius:20px;
+}
+.box::before{
+    content:"";
+    position:absolute;
+    width:100px;
+    height:140%;
+    background:linear-gradient(#00ccff,#d400d4);
+    z-index:-1;
+    animation:animate 4s linear infinite;
+ 
+}
+    .box::after {
+        content: "";
+        inset: 4px;
+        position: absolute;
+        background-color: white;
+        border-radius: 16px;
+        z-index:-1;
+    }
+a {
+    font-size: 26px;
+    text-decoration:none;
+        font-style:italic;
+        font-weight:800;
+}
+
+.wave {
+    z-index: -100;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 53px 15px;
+    /* background-color: blue; */
+    animation: wavy 5s ease-in-out infinite alternate;
+    opacity: .5;
+    background: linear-gradient(45deg, #4caf50, #8bc34a);
+}
+a:hover{
+    color:red;
+    transition-duration:1s
+}
+    
+
+        @keyframes animate {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+@keyframes wavy {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+        @keyframes up {
+            0% {
+                top: -100px;
+            }
+
+            10% {
+                top: 50px;
+            }
+
+            20% {
+                top: 0;
+            }
+
+            30% {
+                top: 50px;
+            }
+
+
+            40% {
+                top: 10px;
+            }
+
+            50% {
+                top: 50px;
+            }
+
+            70% {
+                top: 20px;
+            }
+
+            80% {
+                top: 50px;
+            }
+
+            90% {
+                top: 30px;
+            }
+
+            100% {
+                top: 50px;
+            }
+        }
+
+
+      

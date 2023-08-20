@@ -1,0 +1,165 @@
+﻿body {
+    background-image: linear-gradient(96deg, #9e9e9e, transparent);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+header {
+    width: 100%;
+    margin: 0 0 60px 0;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ho,
+.deg,
+.ta,
+.se,
+.ab,
+.lo {
+    margin: 0 5px;
+}
+
+.contanier {
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fi,
+.fo,
+.th,
+.sec {
+    min-width: 200px;
+    height: 210px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 2px 1px 3px 0;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.sec {
+    margin-bottom: 20px;
+    border-top: 10px solid red;
+}
+
+.fi {
+    border-top: 10px solid blue;
+}
+
+.fo {
+    border-top: 10px solid green;
+}
+
+.th {
+    border-top: 10px solid yellow;
+}
+
+.fi:hover {
+    box-shadow: 6px 3px 20px 0;
+    transition-duration: 1s;
+}
+
+.fo:hover {
+    box-shadow: 6px 3px 20px 0;
+    transition-duration: 1s;
+}
+
+.th:hover {
+    box-shadow: 6px 3px 20px 0;
+    transition-duration: 1s;
+}
+
+.sec:hover {
+    box-shadow: 6px 3px 20px 0;
+    transition-duration: 1s;
+}
+
+
+/*.fi:hover{
+    margin-left:20px;
+    transition-duration:1s;
+}
+    .sec:hover {
+        margin-left: 20px;
+        transition-duration: 1s;
+    }
+    .th:hover {
+        margin-left: 20px;
+        transition-duration: 1s;
+    }
+    .fo:hover {
+        margin-left: 20px;
+        transition-duration: 1s;
+    }*/
+
+.first:hover {
+    color: red;
+    transition-duration: 1s;
+    text-shadow: 6px 5px 20px #e91e63;
+}
+
+.second:hover {
+    color: red;
+    transition-duration: 1s;
+    text-shadow: 6px 5px 20px #e91e63;
+}
+
+.third:hover {
+    color: red;
+    transition-duration: 1s;
+    text-shadow: 6px 5px 20px #e91e63;
+}
+
+.fourth:hover {
+    color: red;
+    transition-duration: 1s;
+    text-shadow: 6px 5px 20px #e91e63;
+}
+
+.fa-solid:hover {
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}
+
+@media (max-width: 768px) {
+    /* Adjust the font size and margin of the icons and links in the header */
+    .fa-solid {
+        font-size: 20px;
+        margin: 5px;
+    }
+    .contain {
+        flex-wrap: wrap;
+    }
+    .contain div {
+        flex-basis: 50%;
+    }
+}
+
+
+/* For screens with a maximum width of 576px */
+
+@media (max-width: 576px) {
+    /* Adjust the font size and margin of the icons and links in the header */
+    .fa-solid {
+        font-size: 16px;
+        margin: 3px;
+    }
+    .contain div {
+        flex-basis: 100%;
+    }
+}

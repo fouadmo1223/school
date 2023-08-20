@@ -1,0 +1,48 @@
+﻿body
+{
+    background-color:beige;
+}
+.contain {
+    display: grid;
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 25%;
+    left: 10%;
+    background-color: white;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 5px;
+    box-shadow: 0 0 13px 0px;
+}
+    .contain div {
+        background-color: paleturquoise;
+        box-shadow: 0 0 13px 0px;
+        text-align: center;
+        position:relative;
+    }
+        .contain div span {
+            top: 25%;
+            position: absolute;
+            left: 20%;
+        }
+
+        .contain div:hover {
+            background-color: beige;
+            box-shadow: 0 0 0 0px;
+            transition-duration:.5s;
+        }
+
+        a{
+            text-align:center;
+            text-decoration:none;
+            font-style:italic;
+            font-size:30px;
+        }
+.contain div span:hover{
+    color:red;
+    padding-left:35px;
+    cursor:pointer;
+    transition-duration:1s;
+    
+}
